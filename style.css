@@ -1,0 +1,17 @@
+.white {
+    background-color: #f0d9b5;
+    height: 100px;
+    width: 100px;
+  }
+
+  .black {
+    background-color: #b58863;
+    height: 100px;
+    width: 100px;
+  }
+  .container {
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* We have to write these 8 times to make the checker board columns and rows.*/
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
